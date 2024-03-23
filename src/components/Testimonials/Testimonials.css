@@ -1,0 +1,137 @@
+/* Testimonials.css */
+
+.testimonials {
+  margin: 80px auto;
+  padding: 0 60px;
+  position: relative;
+}
+
+.next-btn,
+.back-btn {
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.555);
+}
+
+.back-btn {
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: calc(200% - 40px); /* Adjusted width for two items */
+  overflow-x: hidden;
+  transition: 1s;
+}
+
+.slider ul li {
+  list-style: none;
+  width: 50%; /* Each list item occupies 50% of the container */
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: auto; /* Increased card height */
+  width: auto;
+}
+
+.card img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.info h3 {
+  color: #212ea0;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: #505050;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  .testimonials {
+    padding: 0 40px;
+  }
+
+  .next-btn,
+  .back-btn {
+    padding: 10px;
+    width: 35px;
+  }
+
+  .slider ul li {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .card img {
+    width: 50px;
+  }
+
+  .slider ul {
+    width: calc(400% - 80px); /* Adjusted width for two items */
+  }
+}
+
+@media (max-width: 600px) {
+  .info {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .info h3 {
+    font-size: 16px;
+  }
+
+  .slider p {
+    font-size: 12px;
+  }
+
+  .slider ul {
+    width: calc(400% - 80px); /* Adjusted width for two items */
+  }
+}
+
+@media (min-width: 599px) {
+  .slider ul {
+    width: calc(200% - 40px); /* Adjusted width for two items */
+  }
+}

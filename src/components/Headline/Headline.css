@@ -1,0 +1,103 @@
+.headline{
+    background: #00615c;
+    color: #ffffffff;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.social{
+    flex-basis: 45%;
+    height: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+.appointment{
+    flex-basis:10%;
+    position: relative;
+}
+.mail{
+    flex-basis: 45%;
+    height: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+}
+.hotline{
+    flex-basis: 45%;
+    height: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+}
+.headline marquee{
+    margin-left: 20px ;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.hotline img{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+}
+.social img{
+    cursor: pointer;
+    margin: 5px auto;
+    justify-content:space-between;
+    align-content: center;
+    display: flex;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+}
+.mail img{
+    margin: 5px auto;
+    justify-content:end;
+    align-content: end;
+    display: flex;
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+}
+
+
+
+/* ----- media query ----- */
+
+@media (max-width: 1200px){
+    .mail{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    .headline marquee{
+        width: 200px;
+    }
+}
+@media (max-width: 500px){
+    .headline marquee{
+        width: 150px;
+    }
+}
+
