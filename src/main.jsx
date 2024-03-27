@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import AboutLabaid from "./pages/AboutLabaid.jsx";
+import ConsultantsPage from "./pages/ConsultantsPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "homepage",
     element: <HomePage />,
+  },
+  {
+    path: "consultantspage",
+    element: <ConsultantsPage />,
   },
 ]);
 

@@ -23,7 +23,7 @@
 /* Image styling */
 .info img {
   max-width: 90%;
-  height: auto;
+  height: 100px;
   border-radius: 10px 10px 0 0;
 }
 /* Title styling */

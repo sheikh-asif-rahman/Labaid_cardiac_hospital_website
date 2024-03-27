@@ -10,7 +10,6 @@ import appoinment from "../../assets/MyImage/appointment.gif";
 const Programs = () => {
   return (
     <div id="program" className="programs">
-      
       <div className="program">
         <img src={ambulance} alt="" />
         <h4>Ambulance</h4>

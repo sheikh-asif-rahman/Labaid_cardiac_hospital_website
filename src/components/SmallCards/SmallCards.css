@@ -1,0 +1,65 @@
+.smallcards {
+  margin: 50px 100px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.smallcard {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  height: 250px; /* Set height for consistency */
+  position: relative;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.cardinfo {
+  position: relative;
+  text-align: center;
+}
+
+.cardinfo img {
+  margin-top: 10px;
+  width: 150px; /* Adjust to fit the whole top part */
+  height: 120px; /* Adjust to take 70% of the height */
+  object-fit: cover; /* Ensure the image covers the whole area */
+}
+
+.cardinfo p {
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #ffffff;
+  font-size: 18px; /* Default font size */
+  color: #00615c;
+  word-wrap: break-word; /* Ensures text wraps to next line if it exceeds width */
+}
+
+/* Media Queries */
+@media (max-width: 1400px) {
+  .smallcard {
+    width: calc(33.333% - 10px); /* Adjust for 3 small cards per row */
+  }
+}
+
+@media (max-width: 960px) {
+  .smallcard {
+    width: calc(50% - 10px); /* Adjust for 2 small cards per row */
+  }
+}
+
+@media (max-width: 650px) {
+  .smallcard {
+    width: calc(100% - 10px); /* Adjust for 1 small card per row */
+  }
+
+  .cardinfo p {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}

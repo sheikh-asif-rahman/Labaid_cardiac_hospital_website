@@ -58,16 +58,7 @@ const NavigationBar = () => {
                   Service
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
-                <Link
-                  to="consultants"
-                  smooth={true}
-                  offset={-260}
-                  duration={50}
-                >
-                  Consultants
-                </Link>
-              </Nav.Link>
+              <Nav.Link href="consultantspage">Consultants</Nav.Link>
               {/* drop down part */}
               <NavDropdown
                 title="About Us"
