@@ -14,13 +14,13 @@ const Headline = () => {
           Connect with us on our hotline number
         </marquee>
       </div>
-      <div className="hotline">
-        <img src={phone} alt="" />
-        10606
-      </div>
       <div className="mail">
         <img src={mail} alt="" />
         info@labaidgroup.com
+      </div>
+      <div className="hotline">
+        <img src={phone} alt="" />
+        10606
       </div>
       <div className="social">
         <img src={fb} alt="" onClick={{}} />

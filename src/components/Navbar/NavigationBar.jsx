@@ -27,14 +27,6 @@ const NavigationBar = () => {
     };
   }, [isNavbarFixed]);
 
-  const handleDropdownEnter = () => {
-    setIsDropdownOpen(true);
-  };
-
-  const handleDropdownLeave = () => {
-    setIsDropdownOpen(false);
-  };
-
   return (
     <div>
       <Navbar
@@ -53,38 +45,21 @@ const NavigationBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="homepage">Home</Nav.Link>
-              <Nav.Link href="">
-                <Link to="program" smooth={true} offset={-260} duration={50}>
-                  Service
-                </Link>
-              </Nav.Link>
+              <Nav.Link href="ourservicepage">Service</Nav.Link>
               <Nav.Link href="consultantspage">Consultants</Nav.Link>
-              {/* drop down part */}
-              <NavDropdown
-                title="About Us"
-                id="basic-nav-dropdown"
-                onMouseEnter={handleDropdownEnter}
-                onMouseLeave={handleDropdownLeave}
-                show={isDropdownOpen}
-              >
-                <NavDropdown.Item href="homepage">
-                  Message of MD
+              <Nav.Link href="aboutlabaid">About Us</Nav.Link>
+
+              {/* blog drop down part */}
+              <NavDropdown title="Blogs" id="basic-nav-dropdown">
+                <NavDropdown.Item href="blogsreading">
+                  Read Blogs
                 </NavDropdown.Item>
-                <NavDropdown.Item href="aboutlabaid">
-                  About Labaid
+                <NavDropdown.Item href="blogswriting">
+                  Write Blogs
                 </NavDropdown.Item>
-                <NavDropdown.Item href="">Accreditation</NavDropdown.Item>
-                <NavDropdown.Item href="">Our Sister Concerns</NavDropdown.Item>
-                {/* Add more dropdown items as needed */}
               </NavDropdown>
 
-              {/* drop down part */}
-
-              <Nav.Link href="">
-                <Link to="contact_us" smooth={true} offset={-90} duration={50}>
-                  Contact Us
-                </Link>
-              </Nav.Link>
+              {/* blog drop down part */}
             </Nav>
           </Navbar.Collapse>
         </Container>

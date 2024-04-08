@@ -41,14 +41,6 @@ const Programs = () => {
           <p>Online Appointment</p>
         </div>
       </div>
-      {/* <div>
-        <Card>
-          <Card.Img variant="top" src={ambulance} />
-          <Card.Body>
-            <Card.Title>Ambulance</Card.Title>
-          </Card.Body>
-        </Card>
-      </div> */}
     </div>
   );
 };

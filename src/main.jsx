@@ -7,6 +7,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import AboutLabaid from "./pages/AboutLabaid.jsx";
 import ConsultantsPage from "./pages/ConsultantsPage.jsx";
+import OurServicePage from "./pages/OurServicePage.jsx";
+import BlogsReading from "./pages/BlogsReading.jsx";
+import BlogsWriting from "./pages/BlogsWriting.jsx";
+import DetailsPage from "./pages/DetailsPage.jsx";
+import AppointmentPage from "./pages/AppointmentPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +28,26 @@ const router = createBrowserRouter([
   {
     path: "consultantspage",
     element: <ConsultantsPage />,
+  },
+  {
+    path: "ourservicepage",
+    element: <OurServicePage />,
+  },
+  {
+    path: "blogsreading",
+    element: <BlogsReading />,
+  },
+  {
+    path: "blogswriting",
+    element: <BlogsWriting />,
+  },
+  {
+    path: "detailspage",
+    element: <DetailsPage />,
+  },
+  {
+    path: "appointment",
+    element: <AppointmentPage />,
   },
 ]);
 

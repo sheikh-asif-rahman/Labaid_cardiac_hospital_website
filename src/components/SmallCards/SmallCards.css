@@ -1,5 +1,5 @@
 .smallcards {
-  margin: 50px 100px;
+  margin: 50px auto;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -12,7 +12,7 @@
   margin-right: 10px;
   margin-bottom: 10px;
   background: #ffffff;
-  height: 250px; /* Set height for consistency */
+  height: 200px; /* Set height for consistency */
   position: relative;
   border-radius: 10px;
   max-width: 200px;
@@ -25,20 +25,54 @@
 
 .cardinfo img {
   margin-top: 10px;
-  width: 150px; /* Adjust to fit the whole top part */
-  height: 120px; /* Adjust to take 70% of the height */
+  width: 100px; /* Adjust to fit the whole top part */
+  height: 100px; /* Adjust to take 70% of the height */
   object-fit: cover; /* Ensure the image covers the whole area */
 }
 
-.cardinfo p {
-  position:relative;
+.cardinfo h5 {
+  position: relative;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: #ffffff;
   font-size: 18px; /* Default font size */
   color: #00615c;
   word-wrap: break-word; /* Ensures text wraps to next line if it exceeds width */
+}
+
+.cardinfo p {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px; /* Default font size */
+  color: #ffffff;
+  word-wrap: break-word; /* Ensures text wraps to next line if it exceeds width */
+}
+.smallcardsdetail {
+  border-radius: 50px 0px 10px 10px;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  /* margin-top: 80px; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 134, 112, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+.cardinfo:hover .smallcardsdetail {
+  opacity: 2;
+  padding-top: 0;
+  margin-bottom: 0px;
 }
 
 /* Media Queries */

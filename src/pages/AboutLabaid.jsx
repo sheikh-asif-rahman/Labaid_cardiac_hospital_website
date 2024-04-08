@@ -31,14 +31,17 @@ import bedpostcath from "../assets/MyImage/bedpostcath.jpg";
 const cardiacsurgery = [
   {
     text: "CABG",
+    details: "Test",
     image: cabg,
   },
   {
     text: "CHD SURGERY",
+    details: "Test",
     image: chd,
   },
   {
     text: "LUAD IMPLANTATION",
+    details: "Test",
     image: luad,
   },
   // Add more card data objects here as needed
@@ -46,18 +49,22 @@ const cardiacsurgery = [
 const cardiology = [
   {
     text: "Intervention Cardiology",
+    details: "Test",
     image: intervention,
   },
   {
     text: "Cardiac Electrophysiology",
+    details: "Test",
     image: electrophysiology,
   },
   {
     text: "Device implantation in Rhythm Management and Heart Failure.",
+    details: "Test",
     image: rhythm,
   },
   {
     text: "Device Implementation CHD",
+    details: "Test",
     image: coronary,
   },
   // Add more card data objects here as needed
@@ -65,42 +72,52 @@ const cardiology = [
 const inpatient = [
   {
     text: "VIP Cabins",
+    details: "Test",
     image: vipcabins,
   },
   {
     text: "Deluxe Cabins",
+    details: "Test",
     image: deluxecabins,
   },
   {
     text: "High Care Beds",
+    details: "Test",
     image: highcare,
   },
   {
     text: "Stepdown",
+    details: "Test",
     image: stepdown,
   },
   {
     text: "Stroke Care Beds",
+    details: "Test",
     image: strokecarebeds,
   },
   {
     text: "14- Bed Cardiac ICU",
+    details: "Test",
     image: bedcardiacicu,
   },
   {
     text: "2 World Class Cardiac OT",
+    details: "Test",
     image: worldclasscardiacot,
   },
   {
     text: "34- Bed CCU",
+    details: "Test",
     image: bedccu,
   },
   {
     text: "2 Modern Cath Labs",
+    details: "Test",
     image: moderncathlabs,
   },
   {
     text: "6- Bed Post Cath",
+    details: "Test",
     image: bedpostcath,
   },
   // Add more card data objects here as needed
@@ -108,18 +125,22 @@ const inpatient = [
 const outpatient = [
   {
     text: "Intervention Cardiology",
+    details: "Test",
     image: intervention,
   },
   {
     text: "Cardiac Electrophysiology",
+    details: "Test",
     image: electrophysiology,
   },
   {
     text: "Device implantation in Rhythm Management and Heart Failure.",
+    details: "Test",
     image: rhythm,
   },
   {
     text: "Device Implementation CHD",
+    details: "Test",
     image: coronary,
   },
   // Add more card data objects here as needed

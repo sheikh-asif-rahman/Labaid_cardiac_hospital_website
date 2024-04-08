@@ -1,50 +1,56 @@
-.container img{
-    width: 100px;
-    cursor: pointer;
+.container img {
+  width: 100px;
+  cursor: pointer;
 }
 /* Navbar styling */
 .labaidlogo {
-    margin-right: auto; /* Pushes the logo to the left */
-  }
-  
-  .navbar {
-    padding-top: 0.5rem; /* Adjust top padding */
-    padding-bottom: 0.5rem; /* Adjust bottom padding */
-    background: #e0dfdf;
-  }
-  
-  .navbar-brand img {
-    height: 40px; /* Adjust logo height */
-  }
-  
-  .nav-link {
-    color: #333; /* Default link color */
-    margin-left: 1rem; /* Adjust margin between links */
-  }
-  
-  .nav-link:hover {
-    color: #007bff; /* Link color on hover */
-  }
-  
-  .bg-body-tertiary {
-    background-color: #f0f0f0; /* Navbar background color */
-  }
-  .dark-nav{
-    top: 0;
-    background: #ffffff;
-    transition: 0.01s; 
-    position: fixed;
-  
+  margin-right: auto; /* Pushes the logo to the left */
 }
 
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .navbar-nav {
-      flex-direction: column; /* Stack links vertically on small screens */
-    }
-    .nav-link {
-      margin: 0.5rem 0; /* Adjust margin for stacked links */
-    }
+.navbar {
+  padding-top: 0.5rem; /* Adjust top padding */
+  padding-bottom: 0.5rem; /* Adjust bottom padding */
+  background: #e0dfdf;
+  width: 100%;
+}
+
+.navbar-brand img {
+  height: 40px; /* Adjust logo height */
+}
+
+.nav-link {
+  color: #333; /* Default link color */
+  margin-left: 1rem; /* Adjust margin between links */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Link color on hover */
+}
+
+.bg-body-tertiary {
+  background-color: #f0f0f0; /* Navbar background color */
+}
+.dark-nav {
+  top: 0;
+  background: #ffffff;
+  transition: 0.01s;
+  position: fixed;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
   }
-  
+  .navbar-nav {
+    flex-direction: column; /* Stack links vertically on small screens */
+  }
+  .nav-link {
+    margin: 10px 20px; /* Adjust margin for stacked links */
+  }
+}
+@media (max-width: 750px) {
+  .navbar {
+    width: 120%;
+  }
+}

@@ -1,0 +1,57 @@
+.blogupload {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.blogimageuploader {
+  flex-basis: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleandwriting {
+  flex-basis: 56%;
+}
+.uploadimage {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(0, 124, 103);
+  position: relative;
+}
+
+.previewblogimage {
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 80%;
+  height: auto;
+}
+.blogtitleinput {
+  margin: 10px;
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+  border-color: rgb(0, 124, 103);
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+.Blogwritingsinput {
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+/* ------ media query ------- */
+@media (max-width: 800px) {
+  .blogupload {
+    flex-direction: column;
+  }
+}

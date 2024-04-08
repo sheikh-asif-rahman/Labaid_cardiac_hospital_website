@@ -47,9 +47,9 @@ const SliderConsultants = () => {
     <div className="sliderconsultant">
       <Carousel
         responsive={responsive}
-        autoPlay={true}
+        autoPlay={true} // Auto play enabled
         autoPlaySpeed={3000}
-        infinite={true}
+        infinite={true} // Infinite looping enabled
         keyBoardControl={true}
       >
         {/* doctor 1 */}

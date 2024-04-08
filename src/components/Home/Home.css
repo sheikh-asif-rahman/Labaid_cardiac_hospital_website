@@ -2,6 +2,7 @@
   position: relative;
 }
 
+
 .carousel-item::before {
   content: "";
   position: absolute;
@@ -18,6 +19,7 @@
 
 .carousel-item img {
   height: 90vh;
+  width: 100%;
   object-fit: cover;
 }
 .carousel-caption {

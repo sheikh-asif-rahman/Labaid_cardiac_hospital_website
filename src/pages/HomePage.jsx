@@ -18,7 +18,7 @@ const HomePage = () => {
       <Headline />
       <NavigationBar />
       <Home />
-      <Title subtitle="Services" title="We Like To Help" />
+      <Title subtitle="Services" title="Quick Access" />
       <Programs />
       <About
         setPlayState={setPlayState}

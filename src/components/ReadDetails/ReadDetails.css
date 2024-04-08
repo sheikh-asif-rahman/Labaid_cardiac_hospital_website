@@ -1,0 +1,44 @@
+.readingdetail {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.detailimage {
+  flex-basis: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.otherdetails {
+  flex-basis: 56%;
+}
+.imagedetail {
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0px auto;
+  width: 80%;
+  height: auto;
+}
+.detailtitle {
+  margin: 10px;
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  background: rgb(0, 129, 146);
+  color: white;
+}
+.detailall {
+  margin: 10px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 500px;
+}
