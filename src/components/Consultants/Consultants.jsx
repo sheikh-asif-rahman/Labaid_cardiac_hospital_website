@@ -1,6 +1,5 @@
 import React from "react";
 import "./Consultants.css";
-import doctor from "../../assets/MyImage/doctor-1.jpg";
 
 const Consultants = ({
   image_1,

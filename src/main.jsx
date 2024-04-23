@@ -11,7 +11,6 @@ import OurServicePage from "./pages/OurServicePage.jsx";
 import BlogsReading from "./pages/BlogsReading.jsx";
 import BlogsWriting from "./pages/BlogsWriting.jsx";
 import DetailsPage from "./pages/DetailsPage.jsx";
-import AppointmentPage from "./pages/AppointmentPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -44,10 +43,6 @@ const router = createBrowserRouter([
   {
     path: "detailspage",
     element: <DetailsPage />,
-  },
-  {
-    path: "appointment",
-    element: <AppointmentPage />,
   },
 ]);
 

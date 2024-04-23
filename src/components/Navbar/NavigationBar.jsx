@@ -1,14 +1,10 @@
-// NavigationBar.js
-
 import React, { useState, useEffect } from "react";
-import { Link } from "react-scroll";
 import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import "./NavigationBar.css";
 import labaid_logo from "../../assets/MyImage/Labaid_Logo.png";
 
 const NavigationBar = () => {
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
